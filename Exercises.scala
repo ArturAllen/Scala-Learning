@@ -1,8 +1,6 @@
 object Exercises {
 	
-  def isEven(i: Int): Boolean = {
-    return (i % 2) == 0
-  }
+  def isEven(i: Int) = (i % 2) == 0
 
   def hasEven(l: List[Int]): Boolean = {
     var br = false
